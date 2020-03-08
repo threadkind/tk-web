@@ -1,0 +1,41 @@
+* {
+	text-decoration: none;
+	font-family: sans-serif;
+	list-style: none;
+}
+
+a {
+	color: grey;
+}
+
+a:hover {
+	color: pink;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+#mainNav {
+	position: relative;
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+#eatNav {
+	display: none;
+	position: absolute;
+	background: pink;
+	padding: 1%;
+}
+
+#eatNav a {
+	color: black;
+}
+
+#eatNav a:hover {
+	color: grey;
+}

@@ -37,3 +37,11 @@ fetch('https://www.googleapis.com/blogger/v3/blogs/1786749668754208198/posts?key
 
     document.getElementById('posts').innerHTML = html
 })
+
+
+document.getElementById('eat').addEventListener('mouseover', () => {
+	document.getElementById('eatNav').style.display = "block"
+})
+document.getElementById('eatNav').addEventListener('mouseout', () => {
+	document.getElementById('eatNav').style.display = "none"
+})

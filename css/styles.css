@@ -39,3 +39,23 @@ ul, li {
 #eatNav>a:hover, #makeNav>a:hover, #playNav>a:hover, #codeNav>a:hover {
 	color: grey;
 }
+
+header {
+	color: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#posts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.newPosts {
+	width: 40%;
+	border: solid 1px black;
+	margin: 1%;
+	padding: 1%;
+}

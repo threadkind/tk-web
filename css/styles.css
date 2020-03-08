@@ -25,17 +25,17 @@ ul, li {
 	margin: 0 auto;
 }
 
-#eatNav {
+#eatNav, #makeNav, #playNav, #codeNav {
 	display: none;
 	position: absolute;
 	background: pink;
 	padding: 1%;
 }
 
-#eatNav a {
+#eatNav>a, #makeNav>a, #playNav>a, #codeNav>a {
 	color: black;
 }
 
-#eatNav a:hover {
+#eatNav>a:hover, #makeNav>a:hover, #playNav>a:hover, #codeNav>a:hover {
 	color: grey;
 }

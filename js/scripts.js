@@ -42,6 +42,39 @@ fetch('https://www.googleapis.com/blogger/v3/blogs/1786749668754208198/posts?key
 document.getElementById('eat').addEventListener('mouseover', () => {
 	document.getElementById('eatNav').style.display = "block"
 })
+document.getElementById('eat').addEventListener('mouseout', () => {
+	document.getElementById('eatNav').style.display = "none"
+})
 document.getElementById('eatNav').addEventListener('mouseout', () => {
 	document.getElementById('eatNav').style.display = "none"
+})
+
+document.getElementById('make').addEventListener('mouseover', () => {
+	document.getElementById('makeNav').style.display = "block"
+})
+document.getElementById('make').addEventListener('mouseout', () => {
+	document.getElementById('makeNav').style.display = "none"
+})
+document.getElementById('makeNav').addEventListener('mouseout', () => {
+	document.getElementById('makeNav').style.display = "none"
+})
+
+document.getElementById('play').addEventListener('mouseover', () => {
+	document.getElementById('playNav').style.display = "block"
+})
+document.getElementById('play').addEventListener('mouseout', () => {
+	document.getElementById('playNav').style.display = "none"
+})
+document.getElementById('playNav').addEventListener('mouseout', () => {
+	document.getElementById('playNav').style.display = "none"
+})
+
+document.getElementById('code').addEventListener('mouseover', () => {
+	document.getElementById('codeNav').style.display = "block"
+})
+document.getElementById('code').addEventListener('mouseout', () => {
+	document.getElementById('codeNav').style.display = "none"
+})
+document.getElementById('codeNav').addEventListener('mouseout', () => {
+	document.getElementById('codeNav').style.display = "none"
 })
